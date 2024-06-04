@@ -1,6 +1,10 @@
 pipeline
 {
   agent any
+  environment
+  {
+    USUARIO = "${currentBuild.getBuildCauses()[0].userId}"
+  }
   stages
   {
     stage("Informacion ciudad")
@@ -21,6 +25,16 @@ pipeline
       steps
       {
         bat "cmd ipconfig /flushdns"
+      }
+    }
+    stage("Usuario que ejecuta pipeline")
+    {
+      steps
+      {
+        script
+        {
+          echo "La tarea la ejecutó ${env.USUARIO}"
+        }
       }
     }
   }
