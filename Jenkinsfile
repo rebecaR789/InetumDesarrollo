@@ -10,7 +10,7 @@ pipeline
         script
         {
             ciudad = "Madrid"
-            habitantes = 3.332.035
+            habitantes = 3332035
             clima = "soleado"
             println " Estoy en " + ciudad + "que tiene " + habitantes + "habitantes y hace un dia " + soleado
         }
