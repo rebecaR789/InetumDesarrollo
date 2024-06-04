@@ -28,7 +28,7 @@ pipeline
   {
     always
     {
-        echo "El pipeline se está ejecutando."
+        echo "El pipeline se esta ejecutando."
     }
   
   }
