@@ -33,7 +33,7 @@ pipeline
       {
         script
         {
-          echo "La tarea la ejecutó ${env.USUARIO}"
+          echo "La tarea la ejecuto ${env.USUARIO}"
         }
       }
     }
