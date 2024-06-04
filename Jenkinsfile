@@ -12,7 +12,7 @@ pipeline
             ciudad = "Madrid"
             habitantes = 3332035
             clima = "soleado"
-            println " Estoy en " + ciudad + "que tiene " + habitantes + "habitantes y hace un dia " + soleado
+            println " Estoy en " + ciudad + "que tiene " + habitantes + "habitantes y hace un dia " + clima
         }
       }
     }
